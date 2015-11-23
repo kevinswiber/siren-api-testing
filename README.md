@@ -1,6 +1,6 @@
 # Siren API Testing Example
 
-This is an example of testing Siren APIs.
+This is an example of testing Siren APIs.  This method can be used for either functional or regression testing.
 
 ## Get the code
 
