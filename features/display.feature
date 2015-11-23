@@ -1,7 +1,7 @@
 Feature: Display device
   As a Zetta API consumer
   I want to make requests to the display device API
-  So that I can interact with a display device
+  So that I can interact with a physical display screen
 
 Scenario: Executing the "change" action 
     Given I am an API consumer of http://45.55.169.202:3000
