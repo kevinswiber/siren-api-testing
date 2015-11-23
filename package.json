@@ -1,0 +1,23 @@
+{
+  "name": "sirenium",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A simple example of testing Siren APIs",
+  "main": "index.js",
+  "directories": {
+    "test": "test",
+    "features": "features"
+  },
+  "devDependencies": {
+    "cucumber": "^0.9.2",
+    "mocha": "^2.3.4",
+    "rx": "^4.0.7",
+    "siren": "^0.4.0"
+  },
+  "scripts": {
+    "mocha": "./node_modules/mocha/bin/mocha -R spec",
+    "cucumber": "./node_modules/cucumber/bin/cucumber.js"
+  },
+  "author": "Kevin Swiber <kswiber@gmail.com>",
+  "license": "MIT"
+}
